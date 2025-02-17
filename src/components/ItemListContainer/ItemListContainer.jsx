@@ -44,6 +44,7 @@ function ItemListContainer({ greetings }) {
     -Estado de loading: simulamos el loading a una base de datos cuando hacemos el fetch, utilizando un loading true que luego se setea en false.
     -Fetch de datos: estamos emulando que traemos información de una base de datos aunque realmente lo que estamos haciendo es buscarla localmente con una promesa.
     -useEffect: hook que nos permite ejecutar alguna funcionalidad cada vez que la dependencia pasada en el array se modifique. Si pasamos array vacío, se ejecuta una única vez al montar el componente y no se vuelve a ejecutar. Esto nos permite evitar ejecutar varias veces lo mismo.
+    -Map: para mostrar un array en nuestro html tenemos que hacer map, return y lo que queremos retornar. React nos pide que cuando hacemos un map pasemos KEY (si no tenemos id de producto, podemos pasar como key el índice del elemento en su array).
     
     */
 
