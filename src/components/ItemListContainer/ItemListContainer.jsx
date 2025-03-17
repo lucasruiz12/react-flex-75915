@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { fetchData } from '../../fetchData';
 import Item from '../Item/Item';
 import Loader from '../Loader/Loader';
-import ItemDetail from '../ItemDetail/ItemDetail';
+// import ItemDetail from '../ItemDetail/ItemDetail';
 import './ItemListContainer.css';
 import { useParams } from 'react-router-dom';
 
